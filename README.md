@@ -15,3 +15,5 @@ Uncaught (in promise) RuntimeError: Atomics.wait cannot be called in this contex
 ```
 
 To build this program, download Rustup and [Trunk](https://github.com/thedodd/trunk). Use `trunk serve` to build and serve this program, and then go to http://localhost:8080 in a Chromium-based browser. Look in the developer console for errors.
+
+See https://github.com/zesterer/flume/issues/137 for the issue that this example is demonstrating for.
