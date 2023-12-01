@@ -1,4 +1,4 @@
-This is a demonstration showing how to use flume to send data between the main thread and a worker thread using a WebAssembly program with atomics support. Currently, it triggers the following error after a varying number of messages are sent with this error:
+This is a demonstration showing how to use flume to send data between the main thread and a worker thread using a WebAssembly program with atomics support. Currently, it triggers the following error after a varying number of messages are sent:
 
 ```
 Uncaught (in promise) RuntimeError: Atomics.wait cannot be called in this context
