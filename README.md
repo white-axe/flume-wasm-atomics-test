@@ -1,3 +1,12 @@
+> [!NOTE]
+> The issue that this repository was designed to demonstrate has been fixed upstream.
+>
+> It can be fixed in this repository by updating to flume 0.11.1 and enabling the `"spin"` feature of flume (in Cargo.toml):
+>
+> ```
+> flume = { version = "0.11.1", features = ["spin"] }
+> ```
+
 This is a demonstration showing how to use flume to send data between the main thread and a worker thread using a WebAssembly program with atomics support. Currently, it triggers the following error after a varying number of messages are sent:
 
 ```
